@@ -11,6 +11,16 @@ var ChildrenAges = [5, 3]
 
 // functions
 
+var ChildrenVerification = function (argArray) {
+        
+  console.log("I now have " + argArray + " children.");
+        
+};
+
+
+//Main Code
+
+
 console.log("My first two children's names are " + ChildrenNames);
 
 console.log("I had " + ChildrenNames.length + " children.");
@@ -19,7 +29,7 @@ console.log ("Three months ago I had a new baby Justice.");
 
 ChildrenNames[ChildrenNames.length] = "Justice";
 
-console.log ("Now I have " + ChildrenNames.length + " who's names are " + ChildrenNames + ".");
+ChildrenVerification(ChildrenNames.length);
 
 for (var i = 0; i < ChildrenNames.length; i++) { 
     
