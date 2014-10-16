@@ -1,23 +1,39 @@
 // my JSON data
 
 var json = {
-  
+
   "birthDates":
-  
+ 
   [
     {
-      "Jocelyn": "November 5",
-      "ageInNumbers": 1105   
+      name: "Jocelyn",
     },
     {
-      "Jeffrey": "May 31",
-      "ageInNumbers": 0531      
+      age: "November 5",
     },
     {
-        "Justice": "May 14",
-        "ageInNumbers": 051        
+      ageInNumbers: 1105   
+    },
+    {
+      name: "Jeffrey",
+    },
+    {
+      age: "May 31",
+    },
+    {
+      ageInNumbers: 0531      
+    },
+    {
+        name: "Justice",
+    },
+    {
+        age: "May 14",
+    },
+    {
+        ageInNumbers: 051   
     }   
   ]
-    
-    
+ 
 };
+
+
