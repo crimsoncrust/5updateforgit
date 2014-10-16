@@ -49,7 +49,7 @@ var childrenData = function (json) {
       if (json.birthDates[key][nextKey] === "Justice") {
        
         console.log("My newest child's name is Justice");
-    
+    }
       }
     
     
@@ -77,6 +77,7 @@ var childrenData = function (json) {
     
 */
 //Attempted to nestle a condition and I think it is wrong, I am not sure at this point what to do
+// I looked all over the net trying to figure this out
 var example = function()
 {
   var list = json;
@@ -131,5 +132,5 @@ numberOfpops = parseInt (promptAnswer);
 boughtPopsicles = childrenBuy (numberOfpops);
 console.log ("I went and bought my children " + boughtPopsicles + " popsicles because I love them.");
 
-console.log("Each child's name in order of birth is.")
+console.log("Each child's date of birth is in order.")
 example();
