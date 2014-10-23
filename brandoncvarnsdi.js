@@ -1,6 +1,8 @@
 //Brandon C Varn
 // SDI1410
 // Week 3 Project
+//GITHUB Link https://github.com/crimsoncrust/5updateforgit
+//The Flow chart was difficult for me to create, I am missing a few of the elements on it.
 
 
 //Global Variables
